@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: grey;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+    background-color: cornflowerblue;
+}
+li:hover{
+    background-color: rgb(69, 102, 164);
+}
+.form{
+    margin-left: 530px;
+    margin-right: 500px;
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: rgb(28, 47, 48);
+
+}
